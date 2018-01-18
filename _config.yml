@@ -1,12 +1,13 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Yoisushi 由衣的倉庫
+description: I'm Yoisushi. This is my blog!
 
-url: http://brianmaierjr.github.com/long-haul
+url: https://yoisushi.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: kramdown
+syntax_highlighter: coderay
 highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
@@ -20,9 +21,6 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: yoisushi
 
-google_analytics: "UA-58263416-1"
+#google_analytics: "UA-58263416-1"

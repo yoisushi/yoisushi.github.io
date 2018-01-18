@@ -35,5 +35,12 @@
          </ul>
       </div>
    </div>
-</div><!-- end .footer -->
-
+</div>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i = 0; i < pres.length; i++) {
+        var pre = pres[i];
+        pre.className = "line-numbers " + pre.className;
+   }
+</script>
+<!-- end .footer -->
