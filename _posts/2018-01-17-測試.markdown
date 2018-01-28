@@ -41,17 +41,64 @@ pre.line-numbers {
 }
 ```
 
-```bash
+```BASH
 $ cd /usr/local/etc
 $ cp php.ini php.ini.bak
 $ vi php.ini
 ```
+
+```BASH
+cd /usr/local/etc
+cp php.ini php.ini.bak
+vi php.ini
+```
+
+
+```Bash
+cd /usr/local/etc
+cp php.ini php.ini.bak
+vi php.ini
+```
+
+用小寫的bash會偵測到原本樣式裡面css設定的黑色...
+
+
+
+不知為何自己用<code class="language-markup"><pre></code> 設定bash行號就又掛了
+
+而且樣式一直跳來跳去，每次都顯示不同ㄉ......
+
+<pre class="language-bash">
+cd /usr/local/etc
+cp php.ini php.ini.bak
+vi php.ini
+</pre>
+
+
+
+這可以弄成黑的耶！四個半形空白或tab鍵！（這行會黏著上面真煩）
+
+    vi php.ini
+
+
+`vi php.ini`
+這個會變成程式碼字體ㄋ
+
+原來區塊引言會顯示分區的線（blockquote）
+
+參考資料：[MarkdownTW][1]
+[1]: http://markdown.tw/
+
+上面ㄉ連結ㄅ會顯示.....
+
+<http://markdown.tw/>
 
 ## 學習目標
 * Markdown語法
 * Emac環境
 * Git語法
 * 資結、演算法、作業系統、程設筆記
+
 
 
 # Heading 1
