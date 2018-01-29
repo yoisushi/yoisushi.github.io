@@ -5,8 +5,8 @@
     <description>I'm Yoisushi. This is my blog!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Jan 2018 19:14:01 +0800</pubDate>
-    <lastBuildDate>Mon, 29 Jan 2018 19:14:01 +0800</lastBuildDate>
+    <pubDate>Mon, 29 Jan 2018 21:05:34 +0800</pubDate>
+    <lastBuildDate>Mon, 29 Jan 2018 21:05:34 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       
@@ -24,7 +24,7 @@
 
 &lt;p&gt;來測試程式區塊！&lt;/p&gt;
 
-&lt;p&gt;參考這篇教學弄的：&lt;a href=&quot;http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html&quot;&gt;http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;參考這篇教學弄的：&lt;a href=&quot;http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html&quot;&gt;在github pages上面使用jekyll架設部落格&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;可是程式碼的行號還是出不來！不知道為何ＯＴＺ&lt;/p&gt;
 

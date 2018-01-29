@@ -18,7 +18,7 @@ tags: [test, default]
 
 來測試程式區塊！
 
-參考這篇教學弄的：<http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html>
+參考這篇教學弄的：[在github pages上面使用jekyll架設部落格](http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html)
 
 可是程式碼的行號還是出不來！不知道為何ＯＴＺ
 
