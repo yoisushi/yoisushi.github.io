@@ -5,14 +5,20 @@
     <description>I'm Yoisushi. This is my blog!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Jan 2018 12:58:45 +0800</pubDate>
-    <lastBuildDate>Mon, 29 Jan 2018 12:58:45 +0800</lastBuildDate>
+    <pubDate>Mon, 29 Jan 2018 19:14:01 +0800</pubDate>
+    <lastBuildDate>Mon, 29 Jan 2018 19:14:01 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       
       <item>
         <title>測試</title>
-        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;不&lt;/span&gt;知道這個對中文有效ㄇ？&lt;/p&gt;
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;不&lt;/span&gt;知道首字放大對中文有效ㄇ？&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;原來沒有description的時候，class是 &lt;code class=&quot;highlighter-rouge&quot;&gt;intro&lt;/code&gt; 的就會變成首頁上面文章摘要的部分！&lt;/p&gt;
+
+&lt;p&gt;在最上面設定那邊加上 &lt;code class=&quot;highlighter-rouge&quot;&gt;image: 圖檔名.jpg&lt;/code&gt; 就可以插入圖片在文章頂部（比標題還前）&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -69,15 +75,27 @@ vi php.ini
 
 &lt;p&gt;而且樣式一直跳來跳去，每次都顯示不同ㄉ……（例如下面這個，和上面code包的pre）&lt;/p&gt;
 
-&lt;pre class=&quot;language-bash&quot;&gt;
+&lt;p&gt;不能用下面這程式碼來框程式區塊，會沒辦法正常顯示樣式….&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;pre&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;language-bash&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 cd /usr/local/etc
 cp php.ini php.ini.bak
 vi php.ini
-&lt;/pre&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/pre&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;這可以弄成黑的耶！四個半形空白或tab鍵！（這行會黏著上面真煩）
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Markdown文字格式設定：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://support.discordapp.com/hc/zh-tw/articles/210298617-Markdown%E6%96%87%E5%AD%97%E6%A0%BC%E5%BC%8F%E8%A8%AD%E5%AE%9A-%E8%81%8A%E5%A4%A9%E6%A1%86%E6%A0%BC%E5%BC%8F-%E7%B2%97%E9%AB%94-%E6%96%9C%E9%AB%94-%E4%B8%8B%E5%8A%83%E7%B7%9A-&quot;&gt;Markdown文字格式設定&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://blog.geego.com/2015/09/02/markdown-guide/&quot;&gt;Markdown Guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;第二個連結有教一些比較簡化的技巧放鏈結、放圖片！&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;這可以弄成黑的耶！&lt;/del&gt;四個半形空白或tab鍵！（這行會黏著上面真煩）
 結果弄成黑的只有預覽的時候很漂亮…..上傳之後又爛掉ㄌ↓
-結論是不能用這個按tab的…….&lt;/p&gt;
+（後來把黑色弄掉了，出來的是預設的灰。）&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vi php.ini
 &lt;/code&gt;&lt;/pre&gt;
@@ -105,6 +123,71 @@ vi php.ini
 
 &lt;p&gt;這個字體的中文好漂釀！！但是注音文好醜（ㄟ&lt;/p&gt;
 
+&lt;p&gt;插入圖片：&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/code.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+or
+
+![code](/assets/img/code.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/code.jpg&quot; alt=&quot;code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;可以用 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; 來把圖片和圖片描述弄成一區，然後用 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/code&gt; 寫描述～&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-markup&quot;&gt;\&amp;lt;figure\&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;用下面這行程式來引用程式碼會一直失敗QQ&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;code&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;language-markup&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;figure&amp;gt;&amp;lt;/code&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/img/code.jpg&quot; alt=&quot;code&quot; /&gt;
+&lt;figcaption&gt;Fig1. - 範例圖&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Content Cell&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;待解決ㄉ問題&quot;&gt;待解決ㄉ問題&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;很想找個辦法解決引用短程式（兩個單引號）的樣式的問題
+    &lt;ul&gt;
+      &lt;li&gt;在 &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; 那邊調了些樣式（調成和原本用prismjs一樣的感覺，雖然沒有偵測程式碼改字色的功能了QQ）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;還有讓文章裡的字、圖、表格、程式區塊的間隔和寬度整齊一致點。
+    &lt;ul&gt;
+      &lt;li&gt;用 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br&amp;gt;&lt;/code&gt; 可以讓換行不是預設的 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; ，換行間距小一點。&lt;/li&gt;
+      &lt;li&gt;設定post裡面有含 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; 等東西的寬度為75%。
+        &lt;pre&gt;&lt;code class=&quot;language-CSS&quot;&gt;.post .pageTitle,.post dl,.post h1,.post h2,.post h3,.post h4,.post h5,.post h6,.post ol,.post p,.post ul{width:/*75%*/90%;...以下略}
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;還有未來加上google留言板&lt;/li&gt;
+&lt;/ol&gt;
+
 &lt;h2 id=&quot;學習目標&quot;&gt;學習目標&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Markdown語法&lt;/li&gt;
@@ -124,6 +207,10 @@ vi php.ini
 &lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
 
 &lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
+
+&lt;h1 id=&quot;this-is-a-huge-header&quot;&gt;This is a huge header&lt;/h1&gt;
+
+&lt;h2 id=&quot;this-is-a-smaller-header&quot;&gt;this is a smaller header&lt;/h2&gt;
 
 &lt;blockquote&gt;Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.&lt;/blockquote&gt;
 
@@ -174,7 +261,7 @@ vi php.ini
 &lt;p&gt;Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
 </description>
         
-          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;不&lt;/span&gt;知道這個對中文有效ㄇ？&lt;/p&gt;
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;不&lt;/span&gt;知道首字放大對中文有效ㄇ？&lt;/p&gt;
 
 </description>
         
