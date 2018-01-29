@@ -5,8 +5,8 @@
     <description>I'm Yoisushi. This is my blog!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Jan 2018 21:20:12 +0800</pubDate>
-    <lastBuildDate>Sun, 28 Jan 2018 21:20:12 +0800</lastBuildDate>
+    <pubDate>Mon, 29 Jan 2018 12:58:45 +0800</pubDate>
+    <lastBuildDate>Mon, 29 Jan 2018 12:58:45 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       
@@ -18,7 +18,7 @@
 
 &lt;p&gt;來測試程式區塊！&lt;/p&gt;
 
-&lt;p&gt;參考這篇教學弄的：http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html&lt;/p&gt;
+&lt;p&gt;參考這篇教學弄的：&lt;a href=&quot;http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html&quot;&gt;http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;可是程式碼的行號還是出不來！不知道為何ＯＴＺ&lt;/p&gt;
 
@@ -63,9 +63,11 @@ vi php.ini
 
 &lt;p&gt;用小寫的bash會偵測到原本樣式裡面css設定的黑色…&lt;/p&gt;
 
-&lt;p&gt;不知為何自己用&lt;code class=&quot;language-markup&quot;&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; 設定bash行號就又掛了&lt;/p&gt;
+&lt;p&gt;不知為何自己用&lt;code class=&quot;language-markup&quot;&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; 設定bash行號就掛了&lt;/p&gt;
 
-&lt;p&gt;而且樣式一直跳來跳去，每次都顯示不同ㄉ……&lt;/p&gt;
+&lt;p&gt;好吧….它這樣好像沒辦法自己套用內層的CSS&lt;/p&gt;
+
+&lt;p&gt;而且樣式一直跳來跳去，每次都顯示不同ㄉ……（例如下面這個，和上面code包的pre）&lt;/p&gt;
 
 &lt;pre class=&quot;language-bash&quot;&gt;
 cd /usr/local/etc
@@ -73,23 +75,35 @@ cp php.ini php.ini.bak
 vi php.ini
 &lt;/pre&gt;
 
-&lt;p&gt;這可以弄成黑的耶！四個半形空白或tab鍵！（這行會黏著上面真煩）&lt;/p&gt;
+&lt;p&gt;這可以弄成黑的耶！四個半形空白或tab鍵！（這行會黏著上面真煩）
+結果弄成黑的只有預覽的時候很漂亮…..上傳之後又爛掉ㄌ↓
+結論是不能用這個按tab的…….&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vi php.ini
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
+&lt;p&gt;然後highlight這個class會一直影響程式碼區塊變成黑的……&lt;/p&gt;
+
+&lt;p&gt;終於把煩人ㄉ黑色CSS部分弄掉了，沒有刪掉只是先改個名字哈哈，怕亂刪整個版面就毀ㄌXDDD&lt;/p&gt;
+
+&lt;p&gt;然後上面那個按tab鍵的就變成被預設&lt;code class=&quot;language-markup&quot;&gt;&amp;lt;div class=&quot;highlighter-rouge&quot;&amp;gt;&lt;/code&gt;影響….&lt;/p&gt;
+
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vi php.ini&lt;/code&gt;
-這個會變成程式碼字體ㄋ&lt;/p&gt;
+這個會變成程式碼字體ㄋ，等同用&lt;code class=&quot;language-markup&quot;&gt;\&amp;lt;code\&amp;gt;&lt;/code&gt;包起來&lt;/p&gt;
 
-&lt;p&gt;原來區塊引言會顯示分區的線（blockquote）&lt;/p&gt;
+&lt;p&gt;原來這個樣式ㄉ區塊引言會顯示分區的線來當作引用（blockquote）&lt;/p&gt;
 
-&lt;p&gt;參考資料：[MarkdownTW][1]
-[1]: http://markdown.tw/&lt;/p&gt;
+&lt;p&gt;參考資料： &lt;a href=&quot;http://markdown.tw/&quot;&gt;Markdown TW&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;上面ㄉ連結ㄅ會顯示…..&lt;/p&gt;
+&lt;p&gt;上面ㄉ連結原本ㄅ會顯示…..原來要換行才行ㄚ&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://markdown.tw/&quot;&gt;http://markdown.tw/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;感謝這個大大讓我弄好ㄌTag分類！！！！（歡呼）
+&lt;a href=&quot;https://cnly.github.io/2015/10/04/adding-tags.html&quot;&gt;https://cnly.github.io/2015/10/04/adding-tags.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;這個字體的中文好漂釀！！但是注音文好醜（ㄟ&lt;/p&gt;
 
 &lt;h2 id=&quot;學習目標&quot;&gt;學習目標&lt;/h2&gt;
 &lt;ul&gt;
@@ -167,6 +181,10 @@ vi php.ini
         <pubDate>Wed, 17 Jan 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/blog/%E6%B8%AC%E8%A9%A6/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/%E6%B8%AC%E8%A9%A6/</guid>
+        
+        <category>test</category>
+        
+        <category>default</category>
         
         
       </item>

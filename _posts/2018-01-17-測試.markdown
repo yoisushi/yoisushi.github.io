@@ -3,6 +3,7 @@ layout: post
 title:  "測試"
 date:   2018-01-17
 description: 試試看會不會動，還有程式會不會正確顯示ＸＤ
+tags: [test, default]
 ---
 
 <p class="intro"><span class="dropcap">不</span>知道這個對中文有效ㄇ？</p>
@@ -11,7 +12,7 @@ description: 試試看會不會動，還有程式會不會正確顯示ＸＤ
 
 來測試程式區塊！
 
-參考這篇教學弄的：http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html
+參考這篇教學弄的：<http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html>
 
 可是程式碼的行號還是出不來！不知道為何ＯＴＺ
 
@@ -64,9 +65,11 @@ vi php.ini
 
 
 
-不知為何自己用<code class="language-markup"><pre></code> 設定bash行號就又掛了
+不知為何自己用<code class="language-markup"><pre></code> 設定bash行號就掛了
 
-而且樣式一直跳來跳去，每次都顯示不同ㄉ......
+好吧....它這樣好像沒辦法自己套用內層的CSS
+
+而且樣式一直跳來跳去，每次都顯示不同ㄉ......（例如下面這個，和上面code包的pre）
 
 <pre class="language-bash">
 cd /usr/local/etc
@@ -77,21 +80,36 @@ vi php.ini
 
 
 這可以弄成黑的耶！四個半形空白或tab鍵！（這行會黏著上面真煩）
+結果弄成黑的只有預覽的時候很漂亮.....上傳之後又爛掉ㄌ↓
+結論是不能用這個按tab的.......
 
     vi php.ini
 
+然後highlight這個class會一直影響程式碼區塊變成黑的......
+
+終於把煩人ㄉ黑色CSS部分弄掉了，沒有刪掉只是先改個名字哈哈，怕亂刪整個版面就毀ㄌXDDD
+
+然後上面那個按tab鍵的就變成被預設<code class="language-markup"><div class="highlighter-rouge"></code>影響....
 
 `vi php.ini`
-這個會變成程式碼字體ㄋ
+這個會變成程式碼字體ㄋ，等同用<code class="language-markup">\<code\></code>包起來
 
-原來區塊引言會顯示分區的線（blockquote）
+原來這個樣式ㄉ區塊引言會顯示分區的線來當作引用（blockquote）
 
-參考資料：[MarkdownTW][1]
-[1]: http://markdown.tw/
+參考資料： [Markdown TW][markdowntw]
 
-上面ㄉ連結ㄅ會顯示.....
+[markdowntw]: http://markdown.tw/
+
+上面ㄉ連結原本ㄅ會顯示.....原來要換行才行ㄚ
 
 <http://markdown.tw/>
+
+感謝這個大大讓我弄好ㄌTag分類！！！！（歡呼）
+<https://cnly.github.io/2015/10/04/adding-tags.html>
+
+這個字體的中文好漂釀！！但是注音文好醜（ㄟ
+
+
 
 ## 學習目標
 * Markdown語法

@@ -604,11 +604,12 @@ th {
   (c) 2014 Sourcey
   http://sourcey.com
 ***************/
+/*
 .highlight {
   white-space: pre;
   overflow: auto;
   word-wrap: normal;
-  /* horizontal scrolling */
+  /* horizontal scrolling *
   border-radius: 3px;
   padding: 20px;
   background: #343642;
@@ -665,6 +666,7 @@ th {
 
 .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi {
   color: #fff; }
+*/
 
 /***************
 GLOBAL STYLES

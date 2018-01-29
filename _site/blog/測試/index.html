@@ -106,8 +106,12 @@
                      <a href="/about">About</a>
                  </li> 
                  
-                 <li class="element   last">
+                 <li class="element   ">
                      <a href="/contact">Contact</a>
+                 </li> 
+                 
+                 <li class="element   last">
+                     <a href="/tags">Categories</a>
                  </li> 
                  
                  <li> <a href="https://github.com/yoisushi" target="_blank">GitHub</a></li>
@@ -122,7 +126,26 @@
          <div class="post">
   
   <h1 class="postTitle">測試</h1>
-  <p class="meta">January 17, 2018 | <span class="time">2</span> Minute Read</p>
+  <p class="meta">January 17, 2018 | <span class="time">3</span> Minute Read |
+      <span>
+          Tags :
+          
+          <a href="/tags/#test-ref">test</a>
+          
+          <a href="/tags/#default-ref">default</a>
+          
+      </span>
+  </p>
+  
+  <!-- tags
+  <p class="meta">Tags •
+  
+  <a href="/tags.html#test-ref">test</a>
+  
+  <a href="/tags.html#default-ref">default</a>
+  
+  </p>
+  -->
   
   <p class="intro"><span class="dropcap">不</span>知道這個對中文有效ㄇ？</p>
 
@@ -130,7 +153,7 @@
 
 <p>來測試程式區塊！</p>
 
-<p>參考這篇教學弄的：http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html</p>
+<p>參考這篇教學弄的：<a href="http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html">http://popcornylu.github.io/2015/07/19/github-pages-jekyll.html</a></p>
 
 <p>可是程式碼的行號還是出不來！不知道為何ＯＴＺ</p>
 
@@ -175,9 +198,11 @@ vi php.ini
 
 <p>用小寫的bash會偵測到原本樣式裡面css設定的黑色…</p>
 
-<p>不知為何自己用<code class="language-markup">&lt;pre&gt;</code> 設定bash行號就又掛了</p>
+<p>不知為何自己用<code class="language-markup">&lt;pre&gt;</code> 設定bash行號就掛了</p>
 
-<p>而且樣式一直跳來跳去，每次都顯示不同ㄉ……</p>
+<p>好吧….它這樣好像沒辦法自己套用內層的CSS</p>
+
+<p>而且樣式一直跳來跳去，每次都顯示不同ㄉ……（例如下面這個，和上面code包的pre）</p>
 
 <pre class="language-bash">
 cd /usr/local/etc
@@ -185,23 +210,35 @@ cp php.ini php.ini.bak
 vi php.ini
 </pre>
 
-<p>這可以弄成黑的耶！四個半形空白或tab鍵！（這行會黏著上面真煩）</p>
+<p>這可以弄成黑的耶！四個半形空白或tab鍵！（這行會黏著上面真煩）
+結果弄成黑的只有預覽的時候很漂亮…..上傳之後又爛掉ㄌ↓
+結論是不能用這個按tab的…….</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>vi php.ini
 </code></pre>
 </div>
 
+<p>然後highlight這個class會一直影響程式碼區塊變成黑的……</p>
+
+<p>終於把煩人ㄉ黑色CSS部分弄掉了，沒有刪掉只是先改個名字哈哈，怕亂刪整個版面就毀ㄌXDDD</p>
+
+<p>然後上面那個按tab鍵的就變成被預設<code class="language-markup">&lt;div class="highlighter-rouge"&gt;</code>影響….</p>
+
 <p><code class="highlighter-rouge">vi php.ini</code>
-這個會變成程式碼字體ㄋ</p>
+這個會變成程式碼字體ㄋ，等同用<code class="language-markup">\&lt;code\&gt;</code>包起來</p>
 
-<p>原來區塊引言會顯示分區的線（blockquote）</p>
+<p>原來這個樣式ㄉ區塊引言會顯示分區的線來當作引用（blockquote）</p>
 
-<p>參考資料：[MarkdownTW][1]
-[1]: http://markdown.tw/</p>
+<p>參考資料： <a href="http://markdown.tw/">Markdown TW</a></p>
 
-<p>上面ㄉ連結ㄅ會顯示…..</p>
+<p>上面ㄉ連結原本ㄅ會顯示…..原來要換行才行ㄚ</p>
 
 <p><a href="http://markdown.tw/">http://markdown.tw/</a></p>
+
+<p>感謝這個大大讓我弄好ㄌTag分類！！！！（歡呼）
+<a href="https://cnly.github.io/2015/10/04/adding-tags.html">https://cnly.github.io/2015/10/04/adding-tags.html</a></p>
+
+<p>這個字體的中文好漂釀！！但是注音文好醜（ㄟ</p>
 
 <h2 id="學習目標">學習目標</h2>
 <ul>
@@ -271,7 +308,7 @@ vi php.ini
 
 <p>Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
-
+  
   <!-- POST NAVIGATION -->
   <div class="postNav clearfix">
      
