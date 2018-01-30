@@ -5,8 +5,8 @@
     <description>I'm Yoisushi. This is my blog!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Jan 2018 21:05:34 +0800</pubDate>
-    <lastBuildDate>Mon, 29 Jan 2018 21:05:34 +0800</lastBuildDate>
+    <pubDate>Tue, 30 Jan 2018 12:39:30 +0800</pubDate>
+    <lastBuildDate>Tue, 30 Jan 2018 12:39:30 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       
@@ -91,7 +91,7 @@ vi php.ini
 &lt;p&gt;&lt;a href=&quot;https://support.discordapp.com/hc/zh-tw/articles/210298617-Markdown%E6%96%87%E5%AD%97%E6%A0%BC%E5%BC%8F%E8%A8%AD%E5%AE%9A-%E8%81%8A%E5%A4%A9%E6%A1%86%E6%A0%BC%E5%BC%8F-%E7%B2%97%E9%AB%94-%E6%96%9C%E9%AB%94-%E4%B8%8B%E5%8A%83%E7%B7%9A-&quot;&gt;Markdown文字格式設定&lt;/a&gt; &lt;br /&gt;
 &lt;a href=&quot;http://blog.geego.com/2015/09/02/markdown-guide/&quot;&gt;Markdown Guide&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;第二個連結有教一些比較簡化的技巧放鏈結、放圖片！&lt;/p&gt;
+&lt;p&gt;第二個連結有教一些比較簡化的技巧放連結、放圖片！&lt;/p&gt;
 
 &lt;p&gt;&lt;del&gt;這可以弄成黑的耶！&lt;/del&gt;四個半形空白或tab鍵！（這行會黏著上面真煩）
 結果弄成黑的只有預覽的時候很漂亮…..上傳之後又爛掉ㄌ↓
@@ -118,10 +118,12 @@ vi php.ini
 
 &lt;p&gt;&lt;a href=&quot;http://markdown.tw/&quot;&gt;http://markdown.tw/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;感謝這個大大讓我弄好ㄌTag分類！！！！（歡呼）
-&lt;a href=&quot;https://cnly.github.io/2015/10/04/adding-tags.html&quot;&gt;https://cnly.github.io/2015/10/04/adding-tags.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;感謝這個大大讓我弄好ㄌTag分類！！！！（歡呼）&lt;br /&gt;
+&lt;a href=&quot;https://cnly.github.io/2015/10/04/adding-tags.html&quot;&gt;为Jekyll默认模板增加按照Tags分类功能&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;這個字體的中文好漂釀！！但是注音文好醜（ㄟ&lt;/p&gt;
+
+&lt;p&gt;不同裝置上看起來字體也ㄅ一樣。&lt;/p&gt;
 
 &lt;p&gt;插入圖片：&lt;/p&gt;
 
@@ -269,9 +271,9 @@ or
         <link>http://localhost:4000/blog/%E6%B8%AC%E8%A9%A6/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/%E6%B8%AC%E8%A9%A6/</guid>
         
-        <category>test</category>
-        
         <category>default</category>
+        
+        <category>test</category>
         
         
       </item>
@@ -349,6 +351,8 @@ or
         <link>http://localhost:4000/blog/example-post-formatting/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/example-post-formatting/</guid>
         
+        <category>default</category>
+        
         
       </item>
       
@@ -376,6 +380,8 @@ or
         <pubDate>Sun, 14 Dec 2014 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/blog/featured-image/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/featured-image/</guid>
+        
+        <category>default</category>
         
         
       </item>
@@ -405,6 +411,8 @@ or
         <pubDate>Sat, 13 Dec 2014 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/blog/code-snippet/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/code-snippet/</guid>
+        
+        <category>default</category>
         
         
       </item>
@@ -444,6 +452,8 @@ or
         <link>http://localhost:4000/blog/figure-with-caption/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/figure-with-caption/</guid>
         
+        <category>default</category>
+        
         
       </item>
       
@@ -474,6 +484,8 @@ or
         <link>http://localhost:4000/blog/image-in-post/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/image-in-post/</guid>
         
+        <category>default</category>
+        
         
       </item>
       
@@ -501,6 +513,8 @@ or
         <pubDate>Wed, 10 Dec 2014 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/blog/test-post/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/test-post/</guid>
+        
+        <category>default</category>
         
         
       </item>

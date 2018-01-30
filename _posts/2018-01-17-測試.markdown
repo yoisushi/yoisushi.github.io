@@ -3,7 +3,7 @@ layout: post
 title:  "測試"
 date:   2018-01-17
 description: 試試看會不會動，還有程式會不會正確顯示ＸＤ
-tags: [test, default]
+tags: [default, test]
 ---
 
 <p class="intro"><span class="dropcap">不</span>知道首字放大對中文有效ㄇ？</p>
@@ -94,7 +94,7 @@ Markdown文字格式設定：
 [Markdown文字格式設定][markdownword] <br>
 [Markdown Guide](http://blog.geego.com/2015/09/02/markdown-guide/)
 
-第二個連結有教一些比較簡化的技巧放鏈結、放圖片！
+第二個連結有教一些比較簡化的技巧放連結、放圖片！
 
 [markdownword]: https://support.discordapp.com/hc/zh-tw/articles/210298617-Markdown%E6%96%87%E5%AD%97%E6%A0%BC%E5%BC%8F%E8%A8%AD%E5%AE%9A-%E8%81%8A%E5%A4%A9%E6%A1%86%E6%A0%BC%E5%BC%8F-%E7%B2%97%E9%AB%94-%E6%96%9C%E9%AB%94-%E4%B8%8B%E5%8A%83%E7%B7%9A-
 
@@ -124,7 +124,7 @@ Markdown文字格式設定：
 
 <http://markdown.tw/>
 
-感謝這個大大讓我弄好ㄌTag分類！！！！（歡呼）
+感謝這個大大讓我弄好ㄌTag分類！！！！（歡呼）<br>
 [为Jekyll默认模板增加按照Tags分类功能](https://cnly.github.io/2015/10/04/adding-tags.html)
 
 這個字體的中文好漂釀！！但是注音文好醜（ㄟ
