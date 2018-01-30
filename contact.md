@@ -10,7 +10,7 @@ title: Contact Long Haul
     <!-- <p></p> -->
     <!-- <p></p> -->
   </div>
-  <form action="http://formspree.io/yoisushi@boun.cr" method="POST">
+  <form action="http://formspree.io/yoisushi7@boun.cr" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width" style="font-size:1em"><br>
     <label for="email">Email Address</label>
