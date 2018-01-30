@@ -17,12 +17,13 @@ navigation:
    url: /index.html
  - title: About
    url: /about
- - title: Contact
-   url: /contact
+#  - title: Contact
+#   url: /contact
  - title: Categories
    url: /tags
 
 social:
    github: yoisushi
+   email: yoisushi@boun.cr
 
 # google_analytics: "UA-58263416-1"
