@@ -125,9 +125,11 @@ Markdown文字格式設定：
 <http://markdown.tw/>
 
 感謝這個大大讓我弄好ㄌTag分類！！！！（歡呼）
-<https://cnly.github.io/2015/10/04/adding-tags.html>
+[为Jekyll默认模板增加按照Tags分类功能](https://cnly.github.io/2015/10/04/adding-tags.html)
 
 這個字體的中文好漂釀！！但是注音文好醜（ㄟ
+
+不同裝置上看起來字體也ㄅ一樣。
 
 
 插入圖片：
