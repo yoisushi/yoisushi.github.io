@@ -84,8 +84,12 @@
         -moz-border-radius:3px;border-radius:3px;
     }
     </style>
-    
 
+    <!-- Material Timeline -->
+    <link rel="stylesheet" href="/assets/css/material-timeline.min.css">
+    
+    <!-- Light Slider -->
+    <!-- <link type="text/css" rel="stylesheet" href="/assets/css/lightslider.css" /> -->
     
 </head>
 
@@ -104,6 +108,10 @@
                  
                  <li class="element   ">
                      <a href="/about">About</a>
+                 </li> 
+                 
+                 <li class="element   ">
+                     <a href="/projects">Projects</a>
                  </li> 
                  
                  <li class="element   last">
@@ -207,6 +215,7 @@
         pre.className = "line-numbers " + pre.className;
    }
 </script>
+
 <!-- end .footer -->
 
    <!-- Add jQuery and other scripts -->
@@ -215,6 +224,38 @@
 <script src="/assets/js/dropcap.min.js"></script>
 <script src="/assets/js/responsive-nav.min.js"></script>
 <script src="/assets/js/scripts.js"></script>
+<!-- Material Timeline -->
+<script src="/assets/js/material-timeline.min.js"></script>
+<!-- Light Slider -->
+<!-- <script src="/assets/js/lightslider.js"></script> -->
+<!-- <script>
+ $(document).ready(function() {
+    $('#responsive').lightSlider({
+        item:4,
+        loop:false,
+        slideMove:2,
+        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+        speed:600,
+        responsive : [
+            {
+                breakpoint:800,
+                settings: {
+                    item:3,
+                    slideMove:1,
+                    slideMargin:6,
+                  }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:2,
+                    slideMove:1
+                  }
+            }
+        ]
+    });  
+ });
+ </script> -->
 
 
 </body>

@@ -81,8 +81,12 @@
         -moz-border-radius:3px;border-radius:3px;
     }
     </style>
-    
 
+    <!-- Material Timeline -->
+    <link rel="stylesheet" href="/assets/css/material-timeline.min.css">
+    
+    <!-- Light Slider -->
+    <!-- <link type="text/css" rel="stylesheet" href="/assets/css/lightslider.css" /> -->
     
 </head>
 
@@ -103,6 +107,10 @@
                      <a href="/about">About</a>
                  </li> 
                  
+                 <li class="element   ">
+                     <a href="/projects">Projects</a>
+                 </li> 
+                 
                  <li class="element   last">
                      <a href="/tags">Categories</a>
                  </li> 
@@ -119,6 +127,12 @@
          <div id="articles">
   <h1>Articles</h1>
   <ul class="posts noList">
+    
+      <li>
+      	<span class="date">30 Jan 2018</span>
+      	<h3><a href="/blog/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BD%BF%E7%94%A8Github-Pages%E8%88%87jekyll%E6%9E%B6%E7%AB%99%E4%BD%9C%E7%82%BABlog/">[學習筆記] 使用Github Pages與jekyll架站作為Blog</a></h3>
+      	<p class="description">(未完成) 此篇記錄了架設本部落格的心路歷程。</p>
+      </li>
     
       <li>
       	<span class="date">17 Jan 2018</span>
@@ -201,6 +215,7 @@
         pre.className = "line-numbers " + pre.className;
    }
 </script>
+
 <!-- end .footer -->
 
    <!-- Add jQuery and other scripts -->
@@ -209,6 +224,38 @@
 <script src="/assets/js/dropcap.min.js"></script>
 <script src="/assets/js/responsive-nav.min.js"></script>
 <script src="/assets/js/scripts.js"></script>
+<!-- Material Timeline -->
+<script src="/assets/js/material-timeline.min.js"></script>
+<!-- Light Slider -->
+<!-- <script src="/assets/js/lightslider.js"></script> -->
+<!-- <script>
+ $(document).ready(function() {
+    $('#responsive').lightSlider({
+        item:4,
+        loop:false,
+        slideMove:2,
+        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+        speed:600,
+        responsive : [
+            {
+                breakpoint:800,
+                settings: {
+                    item:3,
+                    slideMove:1,
+                    slideMargin:6,
+                  }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:2,
+                    slideMove:1
+                  }
+            }
+        ]
+    });  
+ });
+ </script> -->
 
 
 </body>
