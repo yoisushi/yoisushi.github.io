@@ -5,9 +5,144 @@
     <description>I'm Yoisushi. This is my blog!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Feb 2018 21:48:21 +0800</pubDate>
-    <lastBuildDate>Fri, 09 Feb 2018 21:48:21 +0800</lastBuildDate>
+    <pubDate>Thu, 08 Mar 2018 16:24:44 +0800</pubDate>
+    <lastBuildDate>Thu, 08 Mar 2018 16:24:44 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      
+      <item>
+        <title>[紀錄] 考研學習歷程(2018~2019)</title>
+        <description>&lt;h2 id=&quot;下定決心&quot;&gt;下定決心&lt;/h2&gt;
+&lt;p&gt;自從交換學生回國後，經過數個月的自學、看了很多人的心得文、台清交開放式課程、參加兩次有關資安及網路的進修課程、參加過一次自己心目中最想從事的行業的公司的應徵考試，終於找到自己真正一生想研究、想鑽研的東西是什麼。&lt;br /&gt;
+真正覺得自己非常想讀研究所，因此決定為自己的夢想轟轟烈烈奮鬥一次，好好學、好好把握這次的機會，把底層有關的基礎打好，期望研究所能進入和我目標一致的實驗室！！！&lt;/p&gt;
+
+&lt;h3 id=&quot;考前二月過年前&quot;&gt;考前（二月過年前）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;每天趕工爬教學、文件和設定，把Emacs的環境弄好了～&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;把Git最基本的指令學會（雖然還沒完全上手，還有點卡卡的）&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;推甄準備二月過年後&quot;&gt;推甄準備（二月過年後）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;準備推甄文件（備審資料）&lt;/li&gt;
+  &lt;li&gt;聯絡大學的教授（與教授聊聊目標及近況，並請教授幫忙寫推薦函）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;備註&quot;&gt;【備註】&lt;/h4&gt;
+&lt;p&gt;因為我知道自己之後必須全心學習，必定有好幾個月沒有時間與心力額外準備推甄的資料，因此先把90%需要準備的東西完成了，還剩10%是推薦函及就學計畫英文版，簡章出來之後再衝刺完成吧XD！！&lt;/p&gt;
+
+&lt;h3 id=&quot;考試準備32開始&quot;&gt;考試準備（3/2開始）&lt;/h3&gt;
+&lt;!--
+乾淨的表格
+| 時間/項目      | 線代 | 離散 | DS | 演算法 | OS | 計組計結 | 英文 | C/C++ | 備註 |
+|----------------|------|------|----|--------|----|----------|------|-------|------|
+| 2018/03/02(五) |      |      |    |        |    |          |      |       |      |
+| 2018/03/05(一) |      |      |    |        |    |          |      |       |      |
+| 2018/03/06(二) |      |      |    |        |    |          |      |       |      |
+| 2018/03/07(三) |      |      |    |        |    |          |      |       |      |
+| 2018/03/08(四) |      |      |    |        |    |          |      |       |      |
+--&gt;
+&lt;ol&gt;
+  &lt;li&gt;3/2~5/?? 線代、離散上課時間為早上8:15（最早8點）～11:35。&lt;/li&gt;
+  &lt;li&gt;DS、演算法、OS、計組計結六月下旬才會開始上課，大概上到九月中。&lt;/li&gt;
+  &lt;li&gt;C++很不熟，所以透過OCW補齊語法、實作觀念（因為之前大多寫C#、JAVA等，雖然資料結構當初是用C學的，而且C++也跟C很像，但是還是比C複雜太多了。想起當初面試明明選考C#，但最後考題中的作答語言沒有C#可選，只好用C++去拚，結果因為超不熟，不會用vector QAQ）。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;時間/項目&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;線代&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;離散&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;DS&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;演算法&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;OS&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;計組計結&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;英文&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;C/C++&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;備註&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2018/03/02(五)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;上課&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2018/03/05(一)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;上課&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;V&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2018/03/06(二)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;上課&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;V&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;OCW&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2018/03/07(三)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;OCW&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;找老師&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2018/03/08(四)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;上課&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        
+          <description>&lt;h2 id=&quot;下定決心&quot;&gt;下定決心&lt;/h2&gt;
+&lt;p&gt;自從交換學生回國後，經過數個月的自學、看了很多人的心得文、台清交開放式課程、參加兩次有關資安及網路的進修課程、參加過一次自己心目中最想從事的行業的公司的應徵考試，終於找到自己真正一生想研究、想鑽研的東西是什麼。&lt;br /&gt;
+真正覺得自己非常想讀研究所，因此決定為自己的夢想轟轟烈烈奮鬥一次，好好學、好好把握這次的機會，把底層有關的基礎打好，期望研究所能進入和我目標一致的實驗室！！！&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 08 Mar 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/%E7%B4%80%E9%8C%84-%E8%80%83%E7%A0%94%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B(2018~2019)/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/%E7%B4%80%E9%8C%84-%E8%80%83%E7%A0%94%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B(2018~2019)/</guid>
+        
+        <category>考研</category>
+        
+        
+      </item>
+      
     
       
       <item>
@@ -229,7 +364,7 @@ or
 &lt;h2 id=&quot;學習目標&quot;&gt;學習目標&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Markdown語法&lt;/li&gt;
-  &lt;li&gt;Emac環境&lt;/li&gt;
+  &lt;li&gt;Emacs環境&lt;/li&gt;
   &lt;li&gt;Git語法&lt;/li&gt;
   &lt;li&gt;資結、演算法、作業系統、程設筆記&lt;/li&gt;
 &lt;/ul&gt;

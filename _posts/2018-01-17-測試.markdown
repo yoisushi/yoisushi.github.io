@@ -179,7 +179,7 @@ Content Cell  | Content Cell
 
 ## 學習目標
 * Markdown語法
-* Emac環境
+* Emacs環境
 * Git語法
 * 資結、演算法、作業系統、程設筆記
 
