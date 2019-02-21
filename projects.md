@@ -25,7 +25,7 @@ title: Projects
 
 	<div class="step-inner">
 	  <h3>計畫說明</h3>
-	  <p>本計畫擬實作一個效能與安全兼具，且<b>適用於任何裝置</b>的 <code>匿名雙向認證</code> 與 <code>金鑰協商方法</code> ，以確保機密分享與安全認證，提供似<b>小型私人 KPI 驗證</b>、<b>PGP</b> 的功能。</p>
+	  <p>本計畫擬實作一個效能與安全兼具，且<b>適用於任何裝置</b>的 <code>匿名雙向認證</code> 與 <code>金鑰協商方法</code> ，以確保機密分享與安全認證，提供似<b>小型私人 PKI 驗證</b>、<b>PGP</b> 的功能。</p>
 	  <h3>實作說明</h3>
 	  <p>將 Prosanta Gope 與 Tzonelih Hwang 於 2015 年底新近發表的
 	    <b> “An efficient mutual authentication and key agreement scheme preserving strong anonymity of the mobile user in global mobility networks” </b>
@@ -106,7 +106,7 @@ title: Projects
 		<li>Java (IDE 使用 Android Studio)</li>
 		<li>用 JDBC (Java Database Connectivity) 技術連結 SQL Server</li>
 	      </ul>
-	      <h3>相關連結</h3>
+	      <H3>相關連結</h3>
 	      <p>[1] <a href="文章連結">詳細圖文說明</a></p>
             </div>
         </div>
