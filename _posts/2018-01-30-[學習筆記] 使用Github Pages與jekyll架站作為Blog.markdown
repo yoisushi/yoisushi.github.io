@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[學習筆記] 使用Github Pages與jekyll架站作為Blog"
+title:  "[初衷] 使用Github Pages與jekyll架站作為我的Blog"
 date:   2018-01-30
-description: (未完成) 此篇記錄了架設本部落格的心路歷程。
+description: 此篇記錄了架設本部落格的初衷與未來展望。
 tags: [Github Pages, Web前端]
 ---
 
@@ -11,8 +11,9 @@ tags: [Github Pages, Web前端]
 想說最近剛好想把Git指令學好，也想學寫Markdown文章的方式，還有想要有個寫技術文章的部落格，所以就乾脆搭配Github Pages一起學吧！<br/>
 還有最近也在學Emacs，希望以後就能用Emacs來管理這個部落格和文章和程式撰寫的部分了！也希望能在上研究所、上班以前能夠將這些一直以來想接觸的開源平台、社群的部分多了解一點。
 
-### 待寫文章
-1. Emacs學習歷程
-2. Markdown和Bash的指令筆記
-3. 英文學習筆記
-4. 打基礎、研究所讀書筆記
+### 期望文章撰寫方向（2019/06/27更新）
+1. Emacs使用日常
+2. Markdown和Shell使用日常
+3. 英文寫作日常
+4. 學習筆記（系統安全、網路安全研究領域）
+5. 以專業技術回饋社會－為台語貢獻一分心力
