@@ -1,15 +1,15 @@
-—
+---
 layout: default
-title: About Ting
-—
+title: About Yoisushi
+---
 
 
 
-<div class=“post”>
-	<h1 class=“pageTitle”>Who is Ting?</h1>
-	<img src=“{{ ‘/assets/img/touring.jpg’ | prepend: site.baseurl }}” alt=“”>
+<div class="post">
+	<h1 class="pageTitle">Who is Yoisushi?</h1>
+	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
        <h2>關於我</h2>
-	<p class=“intro”>我是婷兒，英文寫作Ting。<br>自詡為一名藝術家。<br>Taiwanese.</p>
+	<p class="intro">我是由衣，也可以寫作Yoi。<br>自詡為一名藝術家。<br>Taiwanese.</p>
 	<p>目前是資工碩班的研究生，進到了理想的Lab，正在努力學習與研究中。<br>這個網站將作為我存放自己寫的技術性文章的部落格，將會分享我的學習筆記與心得。</p>
 	<h3>喜歡的東西</h3>
 	<ul>
