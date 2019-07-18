@@ -6,8 +6,7 @@ description: 看Leetcode解題教學影片之學習筆記。
 tags: [Leetcode]
 ---
 
-**【教學影片來源】**
-
+* 教學影片來源：
 [Michelle小梦想家- LeetCode in Python](https://www.youtube.com/playlist?list=PL2rWx9cCzU84eBz9Xfp9Rah5Fexq5yrh8)
 
 
@@ -43,6 +42,7 @@ class Solution:
 			return [dict[target-nums[i]], i]
 ```
 
+
 ### LeetCode in Python 7. Reverse Integer
 
 * Note:
@@ -68,6 +68,7 @@ class Solution:
 		else:
 			return 0
 ```
+
 
 ### LeetCode in Python 9. Palindrome Number
 
